@@ -1,0 +1,15 @@
+{
+  "environments": [
+    {
+      "name": "production",
+      "configOverride": {},
+      "schedules": [
+        {
+          "name": "test",
+          "cron": "41 18 * * *"
+        }
+      ],
+      "gitRef": "master"
+    }
+  ]
+}
